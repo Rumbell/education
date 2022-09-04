@@ -1,0 +1,56 @@
+.hello{
+    margin-right: 1400px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(218, 2, 247);
+    color: rgb(1, 19, 182);
+}
+.myvk:active
+{
+     color: chartreuse;
+}
+a:active{
+    color: aqua;
+}
+
+body, html{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+ul{
+    padding: 0;
+    width: 100%;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+}
+
+li:last-child a{
+    margin-right: 0;
+}
+a:link, a:visited, a:focus {
+    background: yellow;
+  }
+  
+a:hover {
+    background: orange;
+  }
+  
+a:active {
+    background: red;
+    color: white;
+  }
