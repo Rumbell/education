@@ -1,1 +1,2 @@
-*My education IT.
+# My education IT.
+Первые шаги в изучении...
