@@ -142,6 +142,33 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
+    transition: background .3s linear,
+    color .3s linear;
 
+}
 
+.btn:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+/* Slider */
+
+.slider{
+    display: flex;
+    justify-content: space-between;
+
+}
+.slider__item{
+    width: 24%;
+    padding: 20px 0;
+
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.slider__num{
+    font-size: 24px;
+    font-weight: 700;
 }
